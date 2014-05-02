@@ -147,9 +147,9 @@ public class ManualExample {
     public static void main(String[] args) {
         try {
 //            new ManualExample().test1();
-            new ManualExample().test2("file:testing/reasoners/rdfs/dttest2.nt");
-            new ManualExample().test2("file:testing/reasoners/rdfs/dttest3.nt");
-//              new ManualExample().test3();
+//            new ManualExample().test2("file:testing/reasoners/rdfs/dttest2.nt");
+//            new ManualExample().test2("file:testing/reasoners/rdfs/dttest3.nt");
+              new ManualExample().test3();
 //            new ManualExample().test4();
         } catch (Exception e) {
             System.out.println("Problem: " + e);
